@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91937CF5-6FFD-42EC-95C9-29D6C053DF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E8F758BF-BA7C-4211-8104-318388FB7E44}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCaisea", "src\FsCaisea\FsCaisea\FsCaisea.fsproj", "{C9864751-7AB3-4158-AABA-5E2600C300EA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Test.FsCaisea", "test\Test.FsCaisea\Test.FsCaisea.fsproj", "{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{19FD1D57-811E-4E1D-A340-17458187A51E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9864751-7AB3-4158-AABA-5E2600C300EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9864751-7AB3-4158-AABA-5E2600C300EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9864751-7AB3-4158-AABA-5E2600C300EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9864751-7AB3-4158-AABA-5E2600C300EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9864751-7AB3-4158-AABA-5E2600C300EA} = {91937CF5-6FFD-42EC-95C9-29D6C053DF5A}
+		{90389DBD-B002-4D8B-A40F-2F6E4DC3EF7C} = {E8F758BF-BA7C-4211-8104-318388FB7E44}
+	EndGlobalSection
+EndGlobal
