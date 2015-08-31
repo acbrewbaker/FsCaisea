@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library1.fs" />
+    <Compile Include="Message.fs" />
+    <Compile Include="Frontend.fs" />
+    <Compile Include="Intermediate.fs" />
+    <Compile Include="Backend.fs" />
     <None Include="Script.fsx" />
   </ItemGroup>
   <PropertyGroup>
